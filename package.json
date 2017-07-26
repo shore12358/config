@@ -1,0 +1,22 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "description": "公共Config模块",
+  "main": "output/index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "test": "set SERVER_ENV=test&&jest --config ./jest.config.js --coverage --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^20.0.5",
+    "jest": "^20.0.4",
+    "lodash": "^4.17.4",
+    "ts-jest": "^20.0.7"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.64",
+    "@types/node": "^7.0.32",
+    "typescript": "^2.3.4"
+  }
+}
