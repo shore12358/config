@@ -1,3 +1,6 @@
 export const DB = {
-    database: "render_test"
+    database: "test",
 };
+export const DB = {
+    database: "test"
+}
