@@ -1,5 +1,5 @@
 {
-  "name": "@nestsof/config",
+  "name": "@nestsoft/config",
   "version": "1.0.0",
   "description": "公共Config模块",
   "main": "output/index.js",
