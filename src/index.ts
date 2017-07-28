@@ -32,7 +32,7 @@ const extendConfig = (envs: string[], path: string) => {
     }
 };
 
-const getProp = (name_path: string) => {
+const getProp = (name_path: string): any => {
     return _get(props_config, name_path);
 };
 
